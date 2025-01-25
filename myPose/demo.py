@@ -40,8 +40,8 @@ def demo(opt):
   data_dir_pth = "./lib/data/foup_grasp_dataset"
   Dataset = grasp_test_dataset(data_dir_pth, opt)
   
-  dist_th_list = [0.02,0.03,0.04]
-  angle_th_list = [np.pi/12, np.pi/8, np.pi/4]
+  dist_th_list = [0.02]
+  angle_th_list = [np.pi/4]
 
   id = 0
   for dist_th in dist_th_list:
